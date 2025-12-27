@@ -1,0 +1,10 @@
+{% extends 'store/base.html' %}
+
+{% block content %}
+<div class="text-center">
+    <h2>Thank You for Your Purchase!</h2>
+    <p>Your order has been placed successfully.</p>
+    <h4>Total Paid: ₹{{ grand_total|floatformat:2 }}</h4>
+    <a href="{% url 'product_list' %}" class="btn btn-primary mt-3">Continue Shopping</a>
+</div>
+{% endblock %}

@@ -1,0 +1,78 @@
+/* Global body settings */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Product cards */
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Card image */
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Buttons */
+.btn-success, .btn-primary {
+    border-radius: 50px;
+    transition: all 0.2s;
+}
+
+.btn-success:hover {
+    transform: scale(1.05);
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #212529;
+    color: #f8f9fa;
+    font-size: 0.9rem;
+}
+
+/* Cart table */
+.table th, .table td {
+    vertical-align: middle;
+}
+
+/* Product list spacing */
+.row > .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* Quantity input */
+input[type=number] {
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+/* Checkout button */
+.btn-lg {
+    padding: 0.75rem 2rem;
+}
